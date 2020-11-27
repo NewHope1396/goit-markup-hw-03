@@ -14,6 +14,10 @@
   padding: 0; */
 }
 
+img {
+  display: block;
+}
+
 ul,
 h1,
 h2,
@@ -287,7 +291,7 @@ footer {
 }
 
 .works {
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 
 .team-list {
@@ -302,14 +306,14 @@ footer {
   margin-right: 30px;
 }
 
-.team-text {
-  padding: 30px 0;
-
-  background-color: var(--white);
+.team-list li {
+  width: 270px;
 }
 
-.team img {
-  display: block;
+.team-text {
+  padding: 30px 10px;
+
+  background-color: var(--white);
 }
 
 .team h3 {
@@ -319,6 +323,7 @@ footer {
 footer .logo {
   display: inline-block;
   margin-bottom: 20px;
+  margin-right: 0;
 }
 
 footer li:not(:last-child) {
@@ -366,4 +371,8 @@ footer li:not(:last-child) {
 
 .cards-text {
   padding: 20px 24px;
+}
+
+.portfolio-header {
+  border: 1px solid #ececec;
 }
